@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Rezel</title>
+  <script type="module" crossorigin src="/Rezel-Docx/assets/main-CCoajDra.js"></script>
+</head>
+<body style="margin: 0; padding: 0;"> 
+    <header
+        style="
+            background-color: black;
+            padding: 0px;
+            margin: 0;
+            ">
+        <div class="nav-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path d="M15 18L9 12L15 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <button class="text" id = "skip-to-index" style="
+                color: white;
+                font-size: 18px;
+                padding:  0px;
+                border: none;
+                text-align: right;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-top: 20px;
+                margin-left: 40px;
+                font-family: 'system-ui', sans-serif;
+                background: none;
+                ;
+            ">To main page</button>
+        </div>
+    </header>
+    <main>
+        <h3 style="font-size: 36px; font-family: 'inter', sans-serif; color: Black; ">
+            Choose What You Want To Download
+        </h3>
+        <div class="tab-widget">
+            <div class="tab-header">
+                <button class="tab-btn active" data-tab="tab1">Browser</button>
+                <button class="tab-btn" data-tab="tab2">Sandbox</button>
+                <button class="tab-btn" data-tab="tab3">SDK</button>        
+            </div>
+
+            <div class="tab-content">
+                <div id="tab1" class="tab-page active">
+                    <div class="download">
+                        <div class="download-item">
+                            <h4>Rezel Browser</h4>
+                            <p> 
+                                If you want to dowmload SDK/Sandbox with UI and connect with future updates, Rezel Browser is the great choice for you.
+                            </p>
+                            <div style = "display: flex; flex-direction: row;">
+                                <p>
+                                    Download Rezel Browser(1.0.1)Windows 64-bit here.
+                                </p>
+                                <a href="https://github.com/Luos-chuan/RezelEngine-Editor/releases/download/v1.0.1/Rezel1-1.0.1.Win.7z" target="_blank" class="btn-link">
+                                    Rezel Browser(1.0.1)Windows 64-bit
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="tab2" class="tab-page">Download content here.</div>
+                <div id="tab3" class="tab-page">Docx content here.</div>
+            </div>
+        </div>
+
+    </main>
+</body>
